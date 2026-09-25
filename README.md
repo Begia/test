@@ -1,5 +1,5 @@
-Test code for RStudio integration with Git and GitHub used in the INFO-GUT Madrid workshop 2026.
+This repository was made to learn about RStudio integration with Git and GitHub in the Third INFOGUT Training School, 28–30 September 2026 organized at IMDEA Nutrition Institute, Madrid, Spain
 
-The file "analysis.R" includes all relevant code.
+The file "analysis.R" includes code to read in the acid measurement data, and to display its contents.
 
-This repository is for testing only!
+The raw data files are not included in this repository, but should be placed in a folder named "data" placed at the root.
