@@ -1,5 +1,7 @@
 # RStudio integration with Git and publishing your code in GitHub
 
+*Third INFOGUT Training School, 28–30 September 2026 organized at IMDEA Nutrition Institute, Madrid, Spain*
+
 To make our code available for other researchers, including possible collaborators and reviewers, we should publish it in a repository. To do this,
 
 RStudio has excellent, built-in Git integration that simplifies this process.
@@ -93,7 +95,7 @@ We can utilize the RStudio's visual Git Tab to update the contents of our reposi
 
 This workflow should also work in the future. Everything that's inside your project's working directory can be uploaded easily like this to GitHub.
 
-### 6. Documenting with a README and adding a license
+### 6. Documenting the contents of the repository with a README
 
 The repository is incomplete without giving context to the people trying to understand how your codebase is structured. We also need to create a README.md file in the project root. It should briefly explain:
 
@@ -103,15 +105,17 @@ The repository is incomplete without giving context to the people trying to unde
 
 Create a new empty text file with the following contents:
 
-```
-This repository was made to learn about RStudio integration with Git and GitHub in the Third INFOGUT Training School, 28–30 September 2026 organized at IMDEA Nutrition Institute, Madrid, Spain
+```         
+This repository was made to learn about RStudio integration with Git and GitHub in the Third INFOGUT Training School, 28–30 September 2026 organized at IMDEA Nutrition Institute, Madrid, Spain.
 
 The file "analysis.R" includes code to read in the acid measurement data, and to display its contents.
 
 The raw data files are not included in this repository, but should be placed in a folder named "data" placed at the root.
 ```
 
-Licenses are important, when sharing your code. They are legal documents with which you define how other people can use (or not use) your code. Let's watch the following videos. <https://www.youtube.com/watch?v=nFU8KoSgEmk> Open Source Software and licenses <https://www.youtube.com/watch?v=srVPLrmlBJY> Creative Commons
+### 7. Adding a license
+
+Licenses are important, when sharing your code in an online repository. They are legal documents with which you define how other people can use (or not use) your code. Let's watch the following videos. <https://www.youtube.com/watch?v=nFU8KoSgEmk> Open Source Software and licenses <https://www.youtube.com/watch?v=srVPLrmlBJY> Creative Commons
 
 For this excercise, we'll use the MIT license, which can be conveniently added directly from a template on the GitHub page.
 
@@ -123,6 +127,10 @@ For this excercise, we'll use the MIT license, which can be conveniently added d
 6.  Check the details on the right: if the current year and the user name / your full name are to your liking, click on the "Review and submit".
 7.  Click on the "Commit changes" button.
 
-Now, since we put this file 
+Now, since we added this file directly from the GitHub web interface, it's not included in our local repository.
+
+The conflict in the repository contents online and locally can be easily resolved by "pulling" the updated content from GitHub in your RStudio Git Tab.
+
+If you have not pulled the contents of the online repository, you can't push your local updates back!
 
 All done!
