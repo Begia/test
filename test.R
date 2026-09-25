@@ -2,4 +2,4 @@
 acids <- read.csv("data/acids.csv", check.names = FALSE)
 str(acids)
 head(rownames(acids))
-head(colnames(acids)) #comment again and again
+head(colnames(acids)) #comment again and again and again
