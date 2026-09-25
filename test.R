@@ -1,4 +1,4 @@
-# This example script loads in the acid measurement data and prints the row and column names
+# This example script loads in the acid measurement data and prints its contents, then its row and column names
 acids <- read.csv("data/acids.csv", check.names = FALSE)
 str(acids)
 head(rownames(acids))
